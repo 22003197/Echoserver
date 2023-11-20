@@ -20,7 +20,7 @@ Implementation using Python code
 Testing the server and client 
 
 ## PROGRAM:
-Server side:
+SERVER:
 import socket
 
 
@@ -40,7 +40,11 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 break
             conn.sendall(data)
 
-Client Side:
+
+
+
+CLIENT SIDE:
+
 import socket
 
 
@@ -55,6 +59,8 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
 
 print(f"Received {data!r}")
+
+
 ## OUTPUT:
 Server Output:
 ![image](https://github.com/22003197/Echoserver/assets/124332243/36fd9fac-b570-42b1-878b-fff161f9fc99)
